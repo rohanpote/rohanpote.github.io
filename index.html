@@ -3,99 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rohan R. Pote</title>
-    <style>
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            max-width: 800px;
-            margin: 40px auto;
-            padding: 0 20px;
-            background-color: #fff;
-        }
-        h1 {
-            font-size: 2.2rem;
-            color: #111;
-            margin-bottom: 5px;
-        }
-        h2 {
-            font-size: 1.4rem;
-            color: #222;
-            border-bottom: 1px solid #eee;
-            padding-bottom: 5px;
-            margin-top: 30px;
-        }
-        .title-sub {
-            font-size: 1.1rem;
-            color: #666;
-            margin-top: 0;
-            margin-bottom: 25px;
-        }
-        ul {
-            padding-left: 20px;
-            margin-bottom: 20px;
-        }
-        li {
-            margin-bottom: 8px;
-        }
-        a {
-            color: #0066cc;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-        .contact-info {
-            margin-top: 30px;
-            font-size: 0.95rem;
-        }
-    </style>
+    <title>Your Name - Personal Academic Website</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="container">
+        <!-- HEADER / PROFILE SECTION -->
+        <header class="profile-section">
+            <div class="profile-text">
+                <h1>Your Name</h1>
+                <p class="title">Ph.D. Candidate / Researcher in Computer Science</p>
+                <p class="institution">Institution / University Name</p>
+                <p class="email">Email: <code>your.email@university.edu</code></p>
+                <div class="social-links">
+                    <a href="#">Google Scholar</a> | 
+                    <a href="#">GitHub</a> | 
+                    <a href="#">Twitter/X</a> | 
+                    <a href="#">CV (PDF)</a>
+                </div>
+            </div>
+            <div class="profile-img-container">
+                <img src="profile.jpg" alt="Your Name" class="profile-img">
+            </div>
+        </header>
 
-    <!-- Header Section -->
-    <h1>Your Name</h1>
-    <p class="title-sub">Staff Engineer | Samsung Semiconductor Inc.</p>
+        <hr>
 
-    <!-- About / Research Interests -->
-    <h2>Research Interests</h2>
-    <ul>
-        <li><strong>Primary Field:</strong> Array signal processing, statistical signal processing, sparse signal recovery, mmWave communications.</li>
-        <!-- <li><strong>Secondary Field:</strong> Core concepts, mathematical frameworks, or tools you use.</li> -->
-        <!-- <li><strong>Applications:</strong> Real-world implementations or systems you study.</li> -->
-    </ul>
+        <!-- BIOGRAPHY SECTION -->
+        <section id="bio">
+            <h2>Biography</h2>
+            <p>Write a brief summary of your research focus here. For example: I am a researcher focusing on machine learning, distributed systems, or optimization algorithms. My work spans theoretical frameworks and practical deployments.</p>
+        </section>
 
-    <!-- Education & Background -->
-    <h2>Education & Background</h2>
-    <ul>
-        <li><strong>Ph.D. in Electrical & Computer Engineering</strong> – UC San Diego, 2023.
-            <br><small>Advisor: Prof. Bhaskar D. Rao</small>
-        </li>
-        <li><strong>M.Sc. in Communication Systems</strong> – Ecole Polytechnique Federale de Lausanne, 2017.</li>
-        <li><strong>B.Tech. in Electrical Engineering</strong> – IIT Jodhpur, 2014.</li>
-    </ul>
+        <!-- NEWS SECTION -->
+        <section id="news">
+            <h2>News</h2>
+            <ul>
+                <li><strong>[Aug 2026]</strong> Our paper was accepted at top conference!</li>
+                <li><strong>[Jan 2026]</strong> Passed my thesis proposal defense.</li>
+            </ul>
+        </section>
 
-    <!-- Professional Experience -->
-    <h2>Experience</h2>
-    <ul>
-        <li><strong>Postdoctoral Fellow</strong> – Hosting Institution, 2024–Present.
-            <br><small>Hosted by Prof. Academic Host</small>
-        </li>
-        <li><strong>Graduate Research Assistant</strong> – Research Lab, 2019–2024.</li>
-    </ul>
-
-    <!-- Contact & Links -->
-    <h2>Contact & Links</h2>
-    <div class="contact-info">
-        <p><strong>Email:</strong> firstname[dot]lastname@gmail[dot]com</p>
-        <p><strong>Links:</strong> 
-            <a href="#">Google Scholar</a> | 
-            <a href="#">LinkedIn</a> | 
-            <a href="#">GitHub</a> | 
-            <a href="#">Curriculum Vitae (CV)</a>
-        </p>
+        <!-- PUBLICATIONS SECTION -->
+        <section id="publications">
+            <h2>Publications</h2>
+            <div class="pub-item">
+                <p class="pub-title"><strong>An Elegant Title for Your Academic Research Paper</strong></p>
+                <p class="pub-authors">Your Name, Co-author One, Co-author Two</p>
+                <p class="pub-venue"><em>Conference on Computer Vision and Pattern Recognition (CVPR), 2026</em></p>
+                <p class="pub-links">[<a href="#">Paper</a>] [<a href="#">Code</a>] [<a href="#">BibTeX</a>]</p>
+            </div>
+        </section>
     </div>
-
 </body>
 </html>
